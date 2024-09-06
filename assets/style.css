@@ -200,4 +200,32 @@ a {
 
 /* #endregion footer section 1 */
 
+/* #region footer section 2 */
+.foot2 {
+    background-color: var(--footer-cont-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 1rem;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--footer-sect2-background);
+        width: 80%;
+        padding: 0.5rem 0rem;
+
+        span {
+            background-color: var(--footer-sect2-object);
+        }
+
+        button {
+            background-color: var(--footer-sect2-object);
+        }
+    }
+}
+
+/* #endregion footer section 2 */
+
 /* #endregion footer */
