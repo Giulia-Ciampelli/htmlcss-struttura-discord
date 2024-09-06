@@ -5,4 +5,29 @@
     box-sizing: border-box;
 }
 
+/* cont is short for container */
+/* sect is short for section */
+:root {
+    --header-cont-background: #add8e6;
+    --header-background: #daa520;
+    --main-firstsect-cont-background: #00008b;
+    --main-firstsect-background: #ee82ee;
+    --main-cont-background: #d3d3d3;
+    --main-middlesect-background-blue: #1e90ff;
+    --main-middlesect-background-pink: #ffc0cb;
+    --main-finalsect-background: #228b22;
+    --footer-cont-background: #23272a;
+    --footer-sect1-background-salmon: #f08080;
+    --footer-sect1-background-teal: #20b2aa;
+    --footer-sect2-background: #7fffd4;
+    --footer-sect2-object: #feb5c0;
+}
+
 /* #endregion common */
+
+/* #region debug */
+.debug * {
+    border: 1px dashed;
+}
+
+/* #endregion debug */
