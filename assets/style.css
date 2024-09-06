@@ -82,6 +82,7 @@ a {
     }
 }
 
+/* #region first section */
 .sect1 {
     background-color: var(--main-firstsect-cont-background);
 
@@ -91,5 +92,8 @@ a {
         height: 70%;
     }
 }
+
+/* #endregion first section */
+
 
 /* #endregion main */
