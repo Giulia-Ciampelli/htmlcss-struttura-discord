@@ -162,7 +162,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 700px;
+    height: 1000px;
     
     div {
         background-color: var(--main-finalsect-background);
@@ -174,3 +174,30 @@ a {
 /* #endregion final section */
 
 /* #endregion main */
+
+/* #region footer */
+
+/* #region footer section 1 */
+.foot1 {
+    background-color: var(--footer-cont-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+
+    div {
+        background-color: var(--footer-sect1-background-teal);
+        width: 13%;
+        height: 70%;
+    }
+
+    :first-child {
+        background-color: var(--footer-sect1-background-salmon);
+        width: 27.5%;
+    }
+}
+
+/* #endregion footer section 1 */
+
+/* #endregion footer */
