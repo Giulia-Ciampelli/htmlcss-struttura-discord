@@ -30,4 +30,35 @@
     border: 1px dashed;
 }
 
+.debug header {
+    background-color: var(--header-cont-background);
+
+    div {
+        background-color: var(--header-background);
+    }
+}
+
 /* #endregion debug */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        margin: 2rem 0rem;
+        padding: 0.2rem 10rem;
+    }
+}
+
+a {
+    margin: 0rem 0.5rem;
+}
+
+.logo {
+    padding-left: 0.5rem;
+}
+
+.login {
+    padding-right: 0.5rem;
+}
