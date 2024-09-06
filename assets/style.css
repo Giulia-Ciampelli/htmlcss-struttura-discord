@@ -95,5 +95,53 @@ a {
 
 /* #endregion first section */
 
+/* #region middle sections */
+
+.sect2 {
+
+    div {
+        background-color: var(--main-middlesect-background-blue);
+        width: 50%;
+        height: 70%;
+    }
+
+    :last-child {
+        background-color: var(--main-middlesect-background-pink);
+        width: 30%;
+    }
+}
+
+.sect3 {
+    background-color: var(--main-cont-background);
+
+    div {
+        background-color: var(--main-middlesect-background-pink);
+        width: 30%;
+        height: 70%;
+    }
+
+    :last-child {
+        background-color: var(--main-middlesect-background-blue);
+        width: 50%;
+    }
+}
+
+
+.sect4 {
+
+    div {
+        background-color: var(--main-middlesect-background-blue);
+        width: 50%;
+        height: 70%;
+    }
+
+    :last-child {
+        background-color: var(--main-middlesect-background-pink);
+        width: 30%;
+    }
+}
+
+
+/* #endregion middle sections */
 
 /* #endregion main */
