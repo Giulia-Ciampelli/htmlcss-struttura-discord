@@ -208,6 +208,7 @@ a {
     align-items: center;
     width: 100%;
     padding-top: 1rem;
+    margin: 1px 0px;
 
     div {
         display: flex;
