@@ -40,6 +40,7 @@
 
 /* #endregion debug */
 
+/* #region header */
 header {
     display: flex;
     justify-content: center;
@@ -62,3 +63,169 @@ a {
 .login {
     padding-right: 0.5rem;
 }
+
+/* #endregion header */
+
+/* #region main */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+/* #region first section */
+.sect1 {
+    background-color: var(--main-firstsect-cont-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+
+    div {
+        background-color: var(--main-firstsect-background);
+        width: 60%;
+        height: 70%;
+    }
+}
+
+/* #endregion first section */
+
+/* #region middle sections */
+
+.sect2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+
+    div {
+        background-color: var(--main-middlesect-background-blue);
+        width: 50%;
+        height: 70%;
+    }
+
+    :last-child {
+        background-color: var(--main-middlesect-background-pink);
+        width: 30%;
+    }
+}
+
+.sect3 {
+    background-color: var(--main-cont-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+
+    div {
+        background-color: var(--main-middlesect-background-pink);
+        width: 30%;
+        height: 70%;
+    }
+
+    :last-child {
+        background-color: var(--main-middlesect-background-blue);
+        width: 50%;
+    }
+}
+
+
+.sect4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+
+    div {
+        background-color: var(--main-middlesect-background-blue);
+        width: 50%;
+        height: 70%;
+    }
+
+    :last-child {
+        background-color: var(--main-middlesect-background-pink);
+        width: 30%;
+    }
+}
+
+/* #endregion middle sections */
+
+/* #region final section */
+.sect5 {
+    background-color: var(--main-cont-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    
+    div {
+        background-color: var(--main-finalsect-background);
+        width: 80%;
+        height: 70%;
+    }
+}
+
+/* #endregion final section */
+
+/* #endregion main */
+
+/* #region footer */
+
+/* #region footer section 1 */
+.foot1 {
+    background-color: var(--footer-cont-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+
+    div {
+        background-color: var(--footer-sect1-background-teal);
+        width: 13%;
+        height: 70%;
+    }
+
+    :first-child {
+        background-color: var(--footer-sect1-background-salmon);
+        width: 27.5%;
+    }
+}
+
+/* #endregion footer section 1 */
+
+/* #region footer section 2 */
+.foot2 {
+    background-color: var(--footer-cont-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 1rem;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--footer-sect2-background);
+        width: 80%;
+        padding: 0.5rem 0rem;
+
+        span {
+            background-color: var(--footer-sect2-object);
+        }
+
+        button {
+            background-color: var(--footer-sect2-object);
+        }
+    }
+}
+
+/* #endregion footer section 2 */
+
+/* #endregion footer */
